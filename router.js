@@ -30,7 +30,7 @@ export const Tabs = createBottonTabNavigator({
     screen: Perfil,
     navigationOpitions: {
     tabBarLabel: 'Perfil',
-    tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor} /> 
+    tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor/> 
                 },
             }, 
     'Sobre': {
