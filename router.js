@@ -14,35 +14,35 @@ let screen = Dimensions.get('window');
 export const Tabs = createBottonTabNavigator({
     'Notas': {
         screen: Notas,
-        navigationOpitions: {
+        navigationOptions: {
             tabBarLabel: 'Notas',
             tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor} /> 
         },
     },
     'Materias': {
     screen: Materias,
-    navigationOpitions: {
+    navigationOptions: {
     tabBarLabel: 'Materias',
     tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor} /> 
             },
         },      
     'Perfil': {
     screen: Perfil,
-    navigationOpitions: {
+    navigationOptions: {
     tabBarLabel: 'Perfil',
     tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor}/> 
                 },
             }, 
     'Sobre': {
     screen: Sobre,
-    navigationOpitions: {
+    navigationOptions: {
     tabBarLabel: 'Sobre',
     tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor} /> 
                     },
                 },     
     'NovaNota': {
     screen: NovaNota,
-    navigationOpitions: {
+    navigationOptions: {
     tabBarLabel: 'NovaNotas',
     tabBarIcon:({ tintColor }) => <Icon name="list" type="entypo" syze={28} color={tintColor} /> 
     },
