@@ -9,7 +9,7 @@ export default class NovaNota extends React.Component {
           NovaNota
         </Text>
       </View>
-    );
+    )
   }
 }
 
